@@ -202,13 +202,13 @@
 
         <TextView
             android:id="@+id/textViewBoardingInCountdown"
-            tools:text="@string/boarding_in_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="@color/colorBad"
             app:layout_constraintLeft_toLeftOf="@+id/textViewBoardingInTimeLabel"
-            app:layout_constraintTop_toBottomOf="@+id/textViewBoardingInTimeLabel" />
+            tools:layout_editor_absoluteY="206dp"
+            tools:text="@string/boarding_in_time" />
 
 
         <TextView
@@ -264,9 +264,9 @@
         <!-- COMPLETED (13) Create a TextView for each of the labels and text fields in the blue table -->
         <TextView
             android:id="@+id/textViewTerminalLabel"
-            android:text="@string/terminal_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/terminal_label"
             android:textAppearance="@style/TextAppearance.AppCompat.Caption"
             android:textColor="@android:color/black"
             app:layout_constraintBottom_toBottomOf="@+id/tableHeaderImage"
